@@ -1,0 +1,203 @@
+:root{
+    --primary-bg:#ecf0f3;
+    --shadow-color:#cbced1;
+    --white:#ffffff;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: var(--primary-bg);
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.main-page{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sign-in{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.page{
+    width: 60%;
+    height: 80vh;
+    margin-top: 10vh;
+    border-radius: 10px;
+    box-shadow: 14px 14px 20px var(--shadow-color),
+            -14px -14px 20px var(--white);
+}
+
+
+
+.page h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: red;
+    margin-bottom: 30px;
+}
+.label-1{
+    margin-left: 10%;
+}
+
+.label-2{
+    margin-left: 10%;
+    margin-top:0;
+}
+.email{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.email .fa{
+    font-size: 1rem;
+    border: 1px solid rgb(61, 150, 223);
+    padding: 7px 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: none;
+    border-bottom-right-radius: none;
+}
+.email input{
+    width: 70%;
+    padding: 5px 20px;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(61, 150, 223);
+    border-top-left-radius: none;
+    border-bottom-left-radius: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: inset 2px 2px 6px #cbced1,
+     inset -6px -6px 6px white;
+}
+.checkbox{
+    width: 76%;
+    margin-left: 12%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.checkbox span{
+    margin-left: 10px;
+}
+
+.checkbox a{
+    font-weight: 600;
+}
+.forgot{
+    text-decoration: none;
+    font-style: italic;
+}
+.forgot:hover{
+    color:red
+}
+
+.page button{
+    width: 76%;
+    margin-left: 12%;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 1rem;
+    box-shadow: 14px 14px 20px var(--shadow-color),
+            -14px -14px 20px var(--white);
+    border: none;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.page button:hover{
+    color: red;
+    box-shadow: inset 2px 2px 6px #cbced1,
+     inset -6px -6px 6px white;
+}
+.page p{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: royalblue;
+}
+.social-media{
+    width: 60%;
+    margin-left: 27%;
+}
+.social-media-2{
+    width: 60%;
+    margin-left: 27%;
+    margin-top: -10px;
+}
+.page ul li{
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.page ul li a{
+    margin-left: 20px;
+
+}
+.login-page ul li{
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.login-page ul li a{
+    margin-left: 20px;
+
+}
+.social{
+    width: 40px;
+    height: 40px;
+    box-shadow: 14px 14px 20px var(--shadow-color),
+    -14px -14px 20px var(--white);
+    padding: 10px;
+    border-radius: 50%;
+}
+.social:hover{
+    box-shadow: inset 2px 2px 6px #cbced1,
+     inset -6px -6px 6px white;
+}
+
+.create-account{
+    color: rgb(18, 18, 19);
+    font-size: 1rem;
+    font-weight: 600;
+}
+.create-account:hover{
+    color: red;
+}
+
+#already{
+    margin-top: 10px;
+}
+
+.vs{
+    position: absolute;
+    font-size: 2rem;
+    margin-top: 70px;
+    font-weight: 900;
+    color: rgb(61, 150, 223);
+}
+
+
